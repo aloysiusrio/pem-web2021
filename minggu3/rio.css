@@ -1,0 +1,40 @@
+main img {
+  width: auto;
+  height: 170px;
+  margin-left: 370px;
+  margin-top: 75px;
+  
+}
+
+main .table1 {
+  font-size: 18px ;
+  width: 1000px;
+  height: 10px;
+  margin-left: 520px;
+  margin-right: auto;
+  margin-top: 0px;
+}
+
+.font1 h1 {
+  font-size: 30px;
+  text-align: left;
+  margin-left: 680px;
+  margin-right: auto;
+
+}
+
+.font h2 {
+  font-size: 25px;
+  text-align: left;
+  margin-left: 355px;
+}
+
+.table{
+  margin-left: 355px;
+  margin-top: 10px;
+  font-size: 15Px;
+  width: 850px;
+  height: 5px;
+}
+
+/*# sourceMappingURL=rio.css.map */
