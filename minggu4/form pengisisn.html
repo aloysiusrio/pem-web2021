@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Formulir PPDB</title>
+    <style>
+        table {
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        tr {
+          border-bottom: 1px solid #ddd;
+        }
+        </style>
+</head>
+<body>
+    
+    <form action = "proses.php" method = "get" name="fcontoh"> 
+    <h2 style="text-align: center;">FORMULIR PPDB JALUR ZONASI TAHUN 2020</h2><br>
+    <h3>INFO PENDAFTARAN</h3>
+<table>
+    
+    <tr>
+        <td><label for="fNISN">NISN</label></td>
+        <td>:</td>
+        <td><input type="text" id="fNISN" name="fNISN" type="text" required=""></td>
+    </tr>
+    <tr>
+        <td><label for="fasekol">Asal sekolah</label></td>
+        <td>:</td>
+        <td><input type="text" id="fasekol" name="fasekol" type="text" required=""></td>
+    </tr>
+    <tr>
+        <td><label for="flulus">Tahun Lulus</label></td>
+        <td>:</td>
+        <td><input type="text" id="flulus" name="flulus" type="text" required=""></td>
+    </tr>
+</table>
+
+<h3>DATA CALON PESERTA</h3>
+<table>
+    <tr>
+        <td><label for="fnamal">Nama Lengkap</label></td>
+        <td>:</td>
+        <td><input type="text" id="fnamal" name="fnamal" type="text" required=""></td>
+    </tr>
+    <tr>
+        <td><label for="fNIK">NIK</label></td>
+        <td>:</td>
+        <td><input type="text" id="fNIK" name="fNIK" type="text" required=""></td>
+    </tr>
+    <tr>
+        <td><label for="fttl">Tempat/Tanggal Lahir</label></td>
+        <td>:</td>
+        <td><input type="text" id="fttl" name="fttl" type="text" required=""></td>
+    </tr>
+    <tr>
+        <td><label for="fjk">Jenis Kelamin</label></td>
+        <td>:</td>
+        <td><input type="text" id="fjk" name="fjk" type="text" required=""></td>
+    </tr>
+    <tr>
+        <td><label for="falamat">Alamat</label></td>
+        <td>:</td>
+        <td><input type="text" id="falamat" name="falamat" type="text" required=""></td>
+    </tr>
+    <tr>
+        <td><label for="fdesa">Desa/Kel.</label></td>
+        <td>:</td>
+        <td><input type="text" id="fdesa" name="fdesa" type="text" required=""></td>
+    </tr>
+    <tr>
+        <td><label for="fkec">Kecamatan</label></td>
+        <td>:</td>
+        <td><input type="text" id="fkec" name="fkec" type="text" required=""></td>
+    </tr>
+    <tr>
+        <td><label for="fkab">Kabupaten</label></td>
+        <td>:</td>
+        <td><input type="text" id="fkab" name="fkab" type="text" required=""></td>
+    </tr>
+    <tr>
+        <td><label for="fprov" >Provinsi</label></td>
+        <td>:</td>
+        <td><input type="text" id="fprov" name="fprov" type="text" required=""></td>
+    </tr>
+    <tr>
+        <td><label for="femail">Email Aktif</label></td>
+        <td>:</td>
+        <td><input type="text" id="femail" name="femail" type="text" required=""></td>
+    </tr>
+</table>
+
+<h3>DATA ORANG TUA</h3>
+<table>
+    <tr>
+        <td><label for="fnokk">Nomor Kartu Keluarga</label></td>
+        <td>:</td>
+        <td><input type="text" id="fnokk" name="fnokk" type="text" required=""></td>
+    </tr>
+    <tr>
+        <td><label for="fnayah">Nama Ayah Kandung</label></td>
+        <td>:</td>
+        <td><input type="text" id="fnayah" name="fnayah" type="text" required=""></td>
+    </tr>
+    <tr>
+        <td><label for="fagama">Agama</label></td>
+        <td>:</td>
+        <td><input type="text" id="fagama" name="fagama" type="text" required=""></td>
+    </tr>
+    <tr>
+        <td><label for="fpekerjaan">Pekerjaan</label></td>
+        <td>:</td>
+        <td><input type="text" id="fpekerjaan" name="fpekerjaan" type="text" required=""></td>
+    </tr>
+    <tr>
+        <td><label for="fnibu">Nama Ibu Kandung</label></td>
+        <td>:</td>
+        <td><input type="text" id="fnibu" name="fnibu" type="text" required=""></td>
+    </tr>
+    <tr>
+        <td><label for="fagama">Agama</label></td>
+        <td>:</td>
+        <td><input type="text" id="fagama" name="fagama" type="text" required=""></td>
+    </tr>
+    <tr>
+        <td><label for="fpekerjaan">Pekerjaan</label></td>
+        <td>:</td>
+        <td><input type="text" id="fpekerjaan" name="fpekerjaan" type="text" required=""></td>
+    </tr>
+    <tr>
+        <td><label for="falamatortu">Alamat Orang tua</label></td>
+        <td>:</td>
+        <td><input type="text" id="falamatortu" name="falamatortu" type="text" required=""></td>
+    </tr>
+    <tr>
+        <td><label for="fdesa">Desa/Kel.</label></td>
+        <td>:</td>
+        <td><input type="text" id="fdesa" name="fdesa" type="text" required=""></td>
+    </tr>
+    <tr>
+        <td><label for="fkec">Kecamatan</label></td>
+        <td>:</td>
+        <td><input type="text" id="fkec" name="fkec" type="text" required=""></td>
+    </tr>
+    <tr>
+        <td><label for="fkab">Kabupaten</label></td>
+        <td>:</td>
+        <td><input type="text" id="fkab" name="fkab" type="text" required=""></td>
+    </tr>
+    <tr>
+        <td><label for="fprov" >Provinsi</label></td>
+        <td>:</td>
+        <td><input type="text" id="fprov" name="fprov" type="text" required=""></td>
+    </tr>
+</table><br>
+<input type="submit" name="fsumbit" value="Kirim / Simpan">
+</form>
+
+
+</body>
+</html>
